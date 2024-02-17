@@ -81,9 +81,9 @@ function createCanvas (opt = {}) {
 function getImageURL () {
   // Choose a large texture size based on our GPU
   const maxTextureSize = getMaxTextureSize();
-  let imageUrl = 'pano_2048.jpg';
-  if (maxTextureSize >= 7000) imageUrl = 'pano_7000.jpg';
-  else if (maxTextureSize >= 4096) imageUrl = 'pano_4096.jpg';
+  let imageUrl = 'tes2.jpg';
+  if (maxTextureSize >= 7000) imageUrl = 'tes2.jpg';
+  else if (maxTextureSize >= 4096) imageUrl = 'tes2.jpg';
   return imageUrl;
 }
 
